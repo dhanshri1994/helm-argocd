@@ -14,3 +14,5 @@ spec:
     targetRevision: HEAD
     helm:
       releaseName: guestbook
+  syncPolicy:
+    automated: {}
